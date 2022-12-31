@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Smart Piggy</title>
+  </head>
+
+  <body>
+
+    <!--back to investment with risk tolerance page-->
+    <div style="margin-top: 1rem; margin-left: 1rem;">
+        <a style="text-decoration: none;" href="investment_withRT.html">
+            <i class="iconfont">&#xe66a;</i>
+        </a>
+    </div>
+
+    <div class="container my-3 d-grid">
+      <!--risk tolerance-->
+      <div class="container my-3">
+        <h5 style="text-align:center">Your risk tolerance</h5>
+        <h3 style="text-align:center">Moderately Aggressive</h3>
+      </div>  
+
+      <!--portfolio weight for bonds and stocks-->
+      <h5 style="text-align:center">Your investment mode</h5>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><strong>Stocks 64%</strong></div>
+        <div class="progress-bar bg-info" role="progressbar" style="width: 36%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><strong>Bonds 36%</strong></div>
+      </div>
+
+      <!--portfolio weight for each bonds or stocks-->
+      <div class="container mt-2">
+      <h6 style="text-align:left">In detial</h6>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              38% - Large Company Stocks
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <li>Company A: 3.55%</li>
+              <li>Company B: 4.72%</li>
+              <li>Company C: 2.33%</li>
+              <li></li>
+              <li></li>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              14% - Small Company Stocks
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <li>Investment weight list of investment underlying in portforlio</li>
+              <li></li>
+              <li></li>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              4% - Emerging Market Stocks
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <li>Investment weight list of investment underlying in portforlio</li>
+              <li></li>
+              <li></li>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                8% - Real Estate Stocks
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>Investment weight list of investment underlying in portforlio</li>
+                <li></li>
+                <li></li>
+              </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                16% Intl Large Company Stocks
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>Investment weight list of investment underlying in portforlio</li>
+                <li></li>
+                <li></li>
+              </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                10% - Corporate Bonds
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>Investment weight list of investment underlying in portforlio</li>
+                <li></li>
+                <li></li>
+              </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                10% - Government Bonds
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>Investment weight list of investment underlying in portforlio</li>
+                <li></li>
+                <li></li>
+              </div>
+            </div>
+        </div>
+      </div>
+    
+    <!--preferance-->
+    <div class="container mt-3">
+      <h6 style="text-align:left">Your preference</h6>
+      <p class="footer_custom">It will be considered in your portfolio investment</p>
+      <br>
+      <table class="table table-borderless">
+          <tbody>
+              <tr>
+                  <td>
+                    <p style="float:left; text-align:left;"><strong>Technology</strong></p>
+                    <div style="float:right; text-align:right;" class="form-check form-switch">
+                     <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                    </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <p style="float:left; text-align:left;"><strong>Food</strong></p>
+                    <div style="float:right; text-align:right;" class="form-check form-switch">
+                     <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes">
+                    </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <p style="float:left; text-align:left;"><strong>Energy</strong></p>
+                    <div style="float:right; text-align:right;" class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                  </div>                    
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <p style="float:left; text-align:left;"><strong>Health</strong></p>
+                    <div style="float:right; text-align:right;" class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                  </div>                    
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                    <p style="float:left; text-align:left;"><strong>Gold</strong></p>
+                    <div style="float:right; text-align:right;" class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes">
+                  </div>                    
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
+</div>
+
+    <!--fixed navbar-->
+    <div class="container">
+      <nav class="navbar navbar-expand fixed-bottom justify-content-center bg-opacity-75 bg-light">
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+              <a class="nav-link active" href="investment.html">
+                <i class="iconfont">&#xe782;</i>
+                Investment
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="iconfont">&#xe7c6;</i>
+                <br>Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learning.html">
+                <i class="iconfont">&#xe7b3;</i>
+                Learning
+              </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Tackle navigation bar occlusion and display full content; navbar y:101px-->
+    <div style="margin:200px" ></div>
+
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/iconfont.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Smart Piggy</title>
+  </head>
+
+  <body>
+
+    <!--welcome-->
+   <div class="container my-5 d-grid">
+    <h2 style="text-align:center">Hi, Alice 👋</h2>
+    <h5 style="text-align:center;">How's your day? 💐</h5>
+    <h5 style="text-align:center;">Ready for your invesment journey?</h5>
+    <h5 style="text-align:center;">🚄🚄🚄</h5>
+    <h5 style="text-align:center;">Let's go!</h5>
+  </div>
+
+  <!--Accordions for basic settings and information-->
+  <div class="container mt-3">
+      <div id="accordion">
+        <!--deposit/withdraw -->
+          <div class="card">
+              <div class="card-header">
+                  <a style="display:block" class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    <i style="float:left; text-align:left;line-height: 1em;" class="iconfont_acc">&#xeb78;</i>
+                    <p style="float:left; text-align:left;">&nbsp;&nbsp;Piggy bank balance</p>
+                    <p style="float:right; text-align:right;">💷 201.10</p>
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                   <div style="display:block" class="card-body">
+                    <!--deposit methods-->
+                    <p class="text-primary"><strong>🌠 Deposit</strong></p>
+                    <table class="table table-borderless">
+                      <tbody>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Save £0.99 for each payment</strong></p>
+                                <div style="float:right; text-align:right;" class="form-check form-switch">
+                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Deposit £5.00 per week</strong></p>
+                                <div style="float:right; text-align:right;" class="form-check form-switch">
+                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes">
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Top up directly</strong></p>
+                                <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Now</button>                      
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <!--withdraw-->
+                  <p class="text-primary"><strong>💫 Withdraw</strong></p> 
+                  <table class="table table-borderless">
+                    <tr>
+                      <td>
+                        <p style="float:left; text-align:left;"><strong>To card ending in 0201</strong></p> 
+                        <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Now</button>
+                      </td>
+                    </tr>
+                  </table>       
+                </div>
+              </div>
+            </div>
+            <!--subscription choosing-->
+          <div class="card">
+              <div class="card-header">
+                  <a style="display:block; text-align: left;" class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                  <i style="float:left; text-align:left;line-height: 1em;" class="iconfont_acc">&#xe6f2;</i>
+                  <p style="float:left; text-align:left;">&nbsp;&nbsp;Subscription</p>  
+              </a>
+              </div>
+               <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>✨ Current Subscription: Pro</strong></p> 
+                    <p><strong>🍬 Basic Free</strong></p> 
+                    <li>Invest in selected portfolio</li>
+                    <li>3 new articles per day for learning</li>
+                    <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Choose</button>
+                    <br>
+                    <p><strong>💪 Pro £0.99/month</strong></p> 
+                    <li>Invest in individual preference</li>
+                    <li>10 new articles per day for learning</li>
+                    <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Cancel</button>
+                    <br>
+                    <p><strong>☄️ Ultra £2.99/month</strong></p> 
+                    <li>Invest in individual preference</li> 
+                    <li>Unlimit learning resources</li>
+                    <li>Priority customer support</li>
+                    <li>Recieve withdraw within 1 hour</li>
+                    <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Try for free in 30 days</button>
+                  </div>
+              </div>
+          </div>
+          <!--account setting-->
+          <div class="card">
+              <div class="card-header">
+                  <a style="display:block; text-align: left;" class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                  <i style="float:left; text-align:left;line-height: 1em;" class="iconfont_acc">&#xe607;</i>
+                  <p style="float:left; text-align:left;">&nbsp;&nbsp;Account</p>
+                  </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <table class="table table-borderless">
+                      <tbody>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Link cards</strong></p>
+                                <div style="float:right; text-align:right;" class="form-check form-switch">
+                                  <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Now</button>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Account Setting</strong></p>
+                                <div style="float:right; text-align:right;" class="form-check form-switch">
+                                <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Check</button>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                <p style="float:left; text-align:left;"><strong>Log out</strong></p>
+                                <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Now</button>                      
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  </div>
+              </div>
+          </div>
+          <!--help center-->
+          <div class="card">
+            <div class="card-header">
+                <a style="display:block; text-align: left;" class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                  <i style="float:left; text-align:left;line-height: 1em;" class="iconfont_acc">&#xe87a;</i>
+                  <p style="float:left; text-align:left;">&nbsp;&nbsp;Information Centre</p>
+            </a>
+            </div>
+             <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td>
+                              <p style="float:left; text-align:left;"><strong>Documents</strong></p>
+                              <div style="float:right; text-align:right;" class="form-check form-switch">
+                                <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Check</button>
+                              </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <p style="float:left; text-align:left;"><strong>Frequently asked</strong></p>
+                              <div style="float:right; text-align:right;" class="form-check form-switch">
+                              <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Check</button>
+                              </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              <p style="float:left; text-align:left;"><strong>Contact us</strong></p>
+                              <button style="float:right; text-align:right;" type="button" class="btn btn-primary btn-sm btn-block">Now</button>                      
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    <!--fixed navbar-->
+    <div class="container">
+      <nav class="navbar navbar-expand fixed-bottom justify-content-center bg-opacity-75 bg-light">
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+              <a class="nav-link" href="investment.html">
+                <i class="iconfont">&#xe782;</i>
+                Investment
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                <i class="iconfont">&#xe7c6;</i>
+                <br>Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learning.html">
+                <i class="iconfont">&#xe7b3;</i>
+                Learning
+              </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Tackle navigation bar occlusion and display full content; navbar y:101px-->
+    <div style="margin:200px" ></div>
+
+  </body>
+</html>
