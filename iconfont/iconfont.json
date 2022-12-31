@@ -1,0 +1,72 @@
+{
+  "id": "3838995",
+  "name": "SE_UI",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "752988",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "5203488",
+      "name": "help-fill",
+      "font_class": "help-fill",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "5744744",
+      "name": "account",
+      "font_class": "zhanghao",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "929334",
+      "name": "flag",
+      "font_class": "flag",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "27363800",
+      "name": "piggy-bank",
+      "font_class": "piggy-bank",
+      "unicode": "eb78",
+      "unicode_decimal": 60280
+    },
+    {
+      "icon_id": "4765737",
+      "name": "Pound",
+      "font_class": "Pound",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "4766454",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "4766954",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e7df",
+      "unicode_decimal": 59359
+    }
+  ]
+}
